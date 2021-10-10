@@ -142,8 +142,8 @@ button:hover:not(.outline) {
 }
 
 .secondary,
-.secondary:not(:disabled):hover,
-.outline.secondary:not(:disabled):hover {
+.secondary:hover,
+.outline.secondary:hover {
   background: var(--secondary-color);
   color: var(--on-primary);
 }
